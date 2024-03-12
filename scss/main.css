@@ -1,0 +1,61 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #444;
+  padding: 1rem;
+}
+
+form {
+  width: 400px;
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+
+.form-label {
+  font-weight: bold;
+  color: #fff;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+.form-control::-moz-placeholder {
+  color: #333;
+}
+
+.form-control::placeholder {
+  color: #333;
+}
+
+.btn-div {
+  text-align: center;
+}
+
+.recovery-btn {
+  color: #fff;
+  border: 0;
+  background-color: transparent;
+}
+
+.recovery-btn[disabled] {
+  opacity: 0.4;
+}
+
+.btn-primary {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.register-btn {
+  background-color: transparent;
+  border: 2px solid;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}/*# sourceMappingURL=main.css.map */
